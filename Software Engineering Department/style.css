@@ -1,0 +1,191 @@
+/* Global Styles */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+h1, h2,
+/* Global Styles */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Header */
+header {
+	background-color: #f7f7f7;
+	padding: 20px;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+nav {
+	margin-top: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a:hover {
+	color: #0077c0;
+}
+
+/* Hero */
+.hero {
+	background-color: #0077c0;
+	color: #fff;
+	padding: 100px;
+	text-align: center;
+}
+
+.hero h2 {
+	font-size: 48px;
+	margin-bottom: 30px;
+}
+
+.hero p {
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 50px;
+}
+
+.cta {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #0077c0;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.cta:hover {
+	background-color: #0077c0;
+	color: #fff;
+}
+
+/* Programs */
+.programs {
+	background-color: #f7f7f7;
+	padding: 100px;
+}
+
+.programs h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.programs ul {
+	display: flex;
+	justify-content: center;
+}
+
+.programs li {
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+	margin-right: 20px;
+	flex-basis: 33.33%;
+	text-align: center;
+}
+
+.programs li:last-child {
+	margin-right: 0;
+}
+
+.programs h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.programs p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+/* Faculty */
+.faculty {
+	padding: 100px;
+	text-align: center;
+}
+
+.faculty h2 {
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+.faculty ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.faculty li {
+	margin-right: 30px;
+	margin-bottom: 30px;
+	flex-basis: 33.33%;
+}
+
+.faculty li:last-child {
+	margin-right: 0;
+}
+
+.faculty img {
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.faculty h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.faculty p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+	background-color: #0077c0;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+}
